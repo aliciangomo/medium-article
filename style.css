@@ -1,0 +1,136 @@
+body {
+  background-color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: #5C5552;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+  font-color: #737373;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a, a:visited {
+  font-color: #4775d1;
+  text-decoration: none;
+}
+
+a:hover {
+  font-color: #4775d1;
+  text-decoration: underline;
+}
+
+i {
+  font-size: 30px;
+  color: #737373;
+  padding-left: 20px;
+}
+
+i:hover {
+  font-size: 30px;
+  color: #262626;
+}
+
+
+ul {
+  text-align: left;
+}
+/*Private styling*/
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#instagram-link {
+  font-weight: bolder;
+}
+
+/*box model*/
+
+.banner {
+    /*background-image: url(https://source.unsplash.com/featured/?teamwork/1000X500);*/
+  background-size: cover;
+  color: white;
+  padding: 0 0;
+  position: relative;
+}
+
+.banner .container {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  width: 100%; /* Full width */
+}
+
+
+.banner h1 {
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+#img-banner {
+  width: 100%;
+  height: 500px;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: left;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+
+/*Responsiveness*/
+@media (max-width: 1400px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
